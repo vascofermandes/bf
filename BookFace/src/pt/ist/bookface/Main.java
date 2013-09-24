@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class Main extends Activity {
+	//teste guthub2
     /** Called when the activity is first created. */
 	Button new_book, share, find_new_book, search, help;
 	
