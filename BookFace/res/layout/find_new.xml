@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#6699ff">
+<Button 
+	android:drawableLeft="@drawable/dot"
+	android:drawablePadding="10sp"
+	android:paddingLeft="10sp"
+	android:orientation="horizontal"
+   	android:background="#FFFFFF"
+    android:layout_width="fill_parent"
+    android:layout_height="45sp"
+    android:layout_marginTop="20sp"
+    android:text="@string/ADDBOOKMENU"
+    android:textColor="#000000"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:gravity="center_vertical"
+    android:id = "@+id/new_book">
+</Button>
+
+    <ImageButton 
+    android:layout_marginTop="40sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/button_online_shop_1"
+    android:layout_gravity="center"
+    android:id = "@+id/fernandes"
+    />
+    
+<ImageButton 
+    android:layout_marginTop="40sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/button_online_shop_2"
+    android:layout_gravity="center"
+    android:id = "@+id/amazon"
+    />
+
+<ImageButton 
+    android:layout_marginTop="40sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/button_online_shop_3"
+    android:layout_gravity="center"
+    android:id = "@+id/bertrand"
+    />
+</LinearLayout>

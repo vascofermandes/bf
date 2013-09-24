@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+             <Button 
+	android:orientation="horizontal"
+   	android:background="@drawable/home"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5sp"
+    android:layout_marginRight="20sp"
+	android:layout_gravity="right"
+    android:textColor="#000000"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:gravity="right"
+    android:id = "@+id/home">
+</Button>
+<Button 
+	android:drawableLeft="@drawable/dot"
+	android:paddingLeft="10sp"
+	android:orientation="horizontal"
+   	android:background="#FFFFFF"
+    android:layout_width="fill_parent"
+    android:layout_height="45sp"
+    android:layout_marginTop="5sp"
+    android:text="@string/SHARECOLLECTIONLINKBOOKMENU"
+    android:textColor="#000000"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:gravity="center_vertical"
+    android:id = "@+id/add_book">
+</Button>
+
+   <TextView
+    	android:id="@+id/point_description"
+    	android:scrollbarAlwaysDrawHorizontalTrack="true"
+    	android:layout_marginTop="50sp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text = "Give your friends the following link!"
+        android:textColor="#000000" 
+        android:textSize="18sp"
+        />
+        
+         <TextView
+    	android:id="@+id/point_description"
+    	android:scrollbarAlwaysDrawHorizontalTrack="true"
+    	android:layout_marginTop="50sp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text = "http://www.bookface.com/?dl=28832"
+        android:textColor="#000000" 
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+        
+                <Button 
+	android:orientation="horizontal"
+   	android:background="@drawable/copy_url"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50sp"
+    android:layout_marginRight="20sp"
+	android:layout_gravity="center"
+    android:textColor="#000000"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:id = "@+id/copy">
+</Button>
+
+                    
+    
+</LinearLayout>

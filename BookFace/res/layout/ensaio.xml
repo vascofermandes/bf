@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+        <Button 
+	android:orientation="horizontal"
+   	android:background="@drawable/home"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5sp"
+    android:layout_marginRight="20sp"
+	android:layout_gravity="right"
+    android:textColor="#000000"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:gravity="right"
+    android:id = "@+id/home">
+</Button>
+<Button 
+	android:drawableLeft="@drawable/dot"
+	android:paddingLeft="10sp"
+	android:orientation="horizontal"
+   	android:background="#FFFFFF"
+    android:layout_width="fill_parent"
+    android:layout_height="45sp"
+    android:layout_marginTop="5sp"
+    android:text=" Ensaio Sobre a Cegueira"
+    android:textColor="#000000"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:gravity="center_vertical"
+    android:id = "@+id/add_book">
+</Button>
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/capa_tit_ensaio" />
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    android:layout_marginTop="10sp"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+   <TextView
+    	android:id="@+id/point_description"
+    	android:scrollbarAlwaysDrawHorizontalTrack="true"
+    	android:layout_marginTop="20sp"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text = "Author > José Saramago "
+        android:textColor="#000000" 
+        android:textSize="20sp"
+        />
+        <TextView
+    	android:id="@+id/point_description"
+    	
+        	android:layout_marginTop="20sp"
+    
+    	android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text = "Publisher > Caminho "
+        android:textColor="#000000" 
+        android:textSize="20sp"
+        />
+        <TextView
+    	android:id="@+id/point_description"
+    	android:scrollbarAlwaysDrawHorizontalTrack="true"
+    	    	android:layout_marginTop="20sp"
+    	
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text = "Category >  Fiction"
+        android:textColor="#000000" 
+        android:textSize="20sp"
+        />
+        
+        
+        <TextView
+    	android:id="@+id/point_description"
+    	android:scrollbarAlwaysDrawHorizontalTrack="true"
+    	    	android:layout_marginTop="20sp"
+    	
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text = "ISBN  > 123-2-3-23544 "
+        android:textColor="#000000" 
+        android:textSize="20sp"
+        />
+        
+           <TextView
+    	android:id="@+id/point_description"
+    	android:scrollbarAlwaysDrawHorizontalTrack="true"
+    	    	android:layout_marginTop="20sp"
+    	
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text = "Category > Fiction "
+        android:textColor="#000000" 
+        android:textSize="20sp"
+        />
+        
+           <TextView
+    	android:id="@+id/point_description"
+    	android:scrollbarAlwaysDrawHorizontalTrack="true"
+    	    	android:layout_marginTop="20sp"
+    	
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text = "Tags > Saramago, Fiction "
+        android:textColor="#000000" 
+        android:textSize="20sp"
+        />
+        
+</LinearLayout>
+
+</LinearLayout>

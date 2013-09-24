@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">BookFace</string>
+    <string name="BOOKFACE">Bookface!</string>
+
+<!-- main menu --> 
+<string name="ADDBOOK">add a new book</string>
+<string name="FINDBOOK">find a book</string>
+<string name="SEARCHBOOK">search for a new book</string>
+<string name="SHAREBOOK">share your collection</string>
+
+<string name="mmhelp1">Account</string>
+<string name="mmhelp2">Settings</string>
+<string name="mmhelp3">About</string>
+<string name="mmhelp4">Exit</string>
+
+<string name="mmhelptext">Tap on the option you would like to do! Press the settings button to acess further or press the go back button to exit.</string>
+
+<!-- add book menu -->
+<string name="ADDBOOKMENU">adding a new book</string>
+<string name="GOONLINE">tap here to go online to find more about your book</string>
+<string name="ADDPICTURE">tap to add a picture</string>
+<string name="TITLE">title</string>
+<string name="AUTHOR">author</string>
+<string name="EDITION">edition</string>
+<string name="ISBN">ISBN number</string>
+<string name="CATEGORY">category</string>
+<string name="TAP">tap here to add a tag</string>
+
+<string name="abmhelptext">addhelptexthere</string>
+ 
+<!-- find a book menu -->
+<string name="FINDABOOKMENU">find a book</string>
+<string name="ALL">all</string>
+<string name="CATEG">categories</string>
+<string name="TAGS">tags</string>
+<string name="SEARCH">search</string>
+
+<string name="fbmhelptext">addhelptexthere</string>
+
+<!-- book -->
+<string name="bmhelp1">Edit Book</string>
+<string name="bmhelp2">Remove Book</string>
+<string name="bmhelptext">addhelptexthere</string>
+
+<!-- search for a new book -->
+<string name="SEARCHBOOKMENU">search for a new book</string>
+
+<string name="sfanbmhelptext">addhelptexthere</string>
+
+<!-- share collection -->
+<string name="SHARECOLLECTIONBOOKMENU">share your collection</string>
+
+<string name="FRIENDS">share with friends</string>
+<string name="FACEBOOK">share on facebook</string>
+
+<string name="sbcmhelptext">addhelptexthere</string>
+
+<!-- share collection link -->
+<string name="SHARECOLLECTIONLINKBOOKMENU">share your collection</string>
+
+<string name="LINK">Give your friends the following link!</string>
+<string name="COPY">copy the url</string>
+
+<string name="sbclmhelptext">share with your friends</string>
+</resources>

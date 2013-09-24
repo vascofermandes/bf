@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="pt.ist.bookface"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddNewBook"
+                  android:label="@string/app_name">
+        </activity>
+               <activity android:name=".FindNewBook"
+                  android:label="@string/app_name">
+        </activity>
+  <activity android:name=".Share"
+                  android:label="@string/app_name">
+        </activity>
+               <activity android:name=".ShareFriends"
+                  android:label="@string/app_name">
+        </activity>
+        
+               <activity android:name=".WarAndPeace"
+                  android:label="@string/app_name">
+        </activity>
+           <activity android:name=".Tabs"
+                  android:label="@string/app_name">
+        </activity>
+            <activity android:name=".AllFind"
+                  android:label="@string/app_name">
+        </activity>
+            <activity android:name=".CategoriesFind"
+                  android:label="@string/app_name">
+        </activity>
+            <activity android:name=".TagsFind"
+                  android:label="@string/app_name">
+        </activity>
+            <activity android:name=".SearchFind"
+                  android:label="@string/app_name">
+        </activity>
+          <activity android:name=".Ensaio"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Input"
+                  android:label="@string/app_name">
+        </activity>
+    </application>
+</manifest>
